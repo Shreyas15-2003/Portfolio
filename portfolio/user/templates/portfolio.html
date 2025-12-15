@@ -1,0 +1,351 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!--Navbar starts-->
+
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <a class=" navbar-brand fw-bold">Shreyas J</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link mx-2" href="#getintouch">Get In Touch</a>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Navbar ends-->
+
+    <!--home starts-->
+
+    <section id="home">
+        <div class="container">
+            <div class="row" style="margin-top:7%;">
+                <div class="col-md-8">
+                    <h1 class=" display-3 fw-bold text-white">Hello I'm <b style="color:orange;">Shreyas J</b></h1>
+                    <h4 class="fw-bold text-white mt-3">Full Stack Python Developer</h4>
+                    <p class="lead mt-2 text-white mt-3">To obtain a Full Stack Python Developer role where I can apply my skills in Python, Django, HTML, CSS, JavaScript, and database management to build efficient, scalable, and user-friendly web applications."</p>
+                    <a class="btn btn-dark mt-3 p-2" target="_blank" href="{% static 'image/resume.pdf' %}">Download Resume</a>
+                    <a class="btn btn-outline-warning mt-3 p-2 ms-3 fw-bold" href="#getintouch">Contact Me</a>
+                    <a class="btn btn-outline-light mt-3 p-2 ms-3 fw-bold" href="#projects">View My Works</a>
+                    <div class="social d-flex  mt-3">
+                    <div class="social-items">
+                       <a href="https://www.linkedin.com/in/shreyas-j-5a414a2a4" target="_blank"><i class="fa-brands fa-linkedin me-4 "></i></a>
+                    </div>
+                    <div class="social-items">
+                       <a href=""><i class="fa-brands fa-github me-4 "></i></a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="{% static 'image/shreyas.jpeg' %}">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--home Ends-->
+
+    <!--About Me Starts-->
+
+    <section id="about">
+        <div class="container">
+            <h3 class="fw-bold text-center mb-5">About Me</h3>
+            <div class="row">
+                 <div class="col-md-4">
+                <img src="{% static 'image/group.jpg' %}" style="height:250px;width:400px;object-fit: cover;border-radius: 10px;">
+            </div>
+            <div class="col-md-8 ">
+                <P class="lead fw-semibold">I’m a dedicated full-stack Python developer with a strong interest in building modern, responsive, and scalable web applications. I enjoy transforming concepts into real products and continuously improving my skills through hands-on projects.</P>
+                <p class="lead fw-semibold">A curious developer who learns fast, experiments often, and aims to create applications that are both functional and visually appealing.</p>
+                <p class="lead fw-semibold">I specialize in web development and love working across the full development cycle — from front-end UI to back-end logic, databases, and deployment.</p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--About Me Ends-->
+
+    <!--Skills Starts-->
+
+    <section id="skills">
+        <div class="container">
+            <h3 class="text-center mb-5 fw-bold">🤖Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skills-card p-4">
+                    <h5 class="text-center">Frontend</h5>
+                    <hr style="border:2px solid black;">
+                    <div class="icons-logo">
+                         
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">Html-5</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">Css-3</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">JavaScript</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">Bootstrap Framework</a>
+
+                    </div>
+                </div>
+
+                <div class="skills-card p-4">
+                    <h5 class="text-center">Backend</h5>
+                    <hr style="border:2px solid black;">
+                    <div class="icons-logo">
+                       
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">Python Programming</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">Django Framework</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">JavaScript (Basics)</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">MySql Database</a>
+
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="skills-card p-4">
+                    <h5 class="text-center">Tools & Technologies</h5>
+                    <hr style="border:2px solid black;">
+                    <div class="icons-logo">
+
+                         <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">Git</a>
+
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">GitHub</a>
+                        
+                        <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">Vs-Code</a>
+
+                         <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg">REST API</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Ends-->
+
+    <!--Projects section-->
+
+    <section id="projects">
+        <div class="container-fluid">
+            <h3 class="text-center fw-bold  mb-3">📌Projects</h3>
+            <div class="projects-grid p-5">
+
+                 <div class="project-card ">
+                    <img src="{% static 'image/cart.jpg' %}">
+                    <h5>BuyNest E-Commerce</h5>
+                    <p>BuyNest is a Django-based e-commerce platform where users can explore a wide range of products, add items to their cart, and place secure online orders.</p>
+                <div class="tech-stack">
+                    <span>Html5</span>
+                    <span>Css3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                </div>
+                <i class="fa-brands fa-github " href=""></i>
+            </div>
+
+             <div class="project-card">
+                    <img src="{% static 'image/download (1).jpg' %}">
+                    <h5>Personal Portfolio</h5>
+                    <p>A personal portfolio crafted using Python, Django, HTML, CSS, JavaScript, and Bootstrap to showcase my projects and skills.</p>
+                <div class="tech-stack">
+                    <span>Html5</span>
+                    <span>Css3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                </div>
+               <i class="fa-brands fa-github " href=""></i>
+            </div>
+
+             <div class="project-card">
+                    <img src="{% static 'image/download.jpg' %}">
+                    <h5>Franchise management</h5>
+                    <p>The Franchise Management System is a Django-based platform where admins can manage franchises, agents, handle generation leads.</p>
+                <div class="tech-stack">
+                    <span>Html5</span>
+                    <span>Css3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                </div>
+                <i class="fa-brands fa-github " href=""></i>
+            </div>
+
+             <div class="project-card">
+                    <img src="{% static 'image/trips.jpg' %}">
+                    <h5>Book My Trip</h5>
+                    <p>Book My Trip is a Django-based travel booking system where users can browse destinations, book tours, and make secure payments.</p>
+                <div class="tech-stack">
+                    <span>Html5</span>
+                    <span>Css3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                </div>
+                <i class="fa-brands fa-github " href=""></i>
+            </div>            
+        </div>
+    </section>
+
+    <!--Projects ends-->
+
+    
+    <!--Experience Section-->
+    
+    <section id="experience">
+        <div class="container">
+            <h3 class="text-center  fw-bold">🤖Experience</h3>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <i class="fa fa-code d-flex justify-content-start ms-2"></i>
+                    <h4 class="d-flex justify-content-start">Full Stack Python Developer - Intern</h4>
+                    <P class="d-flex justify-content-start">Techcentrix,Mysore</P>
+                    <ul>
+                       <li>Build responsive websites using HTML, CSS, JavaScript, Bootstrap, Python, Django</li>
+                       <li>Worked on company live projects</li>
+                       <li>Optimized backend technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!--Experience Ends-->
+
+    <!--Get in Touch Starts-->
+
+   <section id="getintouch">
+    <div class="container  mb-2">
+        <div class="row">
+            <h3 class="fw-bold text-center mb-5">🔗Get In <strong style="color:red;">Touch</strong></h3>
+
+            <div class="col-md-7">
+                <h3 class="fw-bold">Feel Free To Connect !</h3>
+                <P class="lead">To become a skilled Full Stack Developer by building modern, fast, and user-friendly web applications using both frontend and backend technologies</P>
+                
+                <div class="social-links d-flex align-items-center">
+                    <i class="fa fa-envelope me-3"></i><span><b>Email</b><br>shreyasjmysuru@gmail.com</span>
+                </div>
+                 <div class="social-links d-flex align-items-center">
+                    <i class="fa fa-phone me-3"></i><span><b>Contact</b><br>+91 9902537543</span>
+                </div>
+                 <div class="social-links d-flex align-items-center">
+                    <i class="fa fa-location-dot me-3"></i><span><b>Location</b><br>Mysore,Karnataka</span>
+                </div>
+
+                <hr style="border:2px solid black;">
+
+                <h3 class="mt-2 fw-bold">Find Me On</h3>
+
+                <div class="social d-flex gap-2 mt-3">
+                    <div class="social-items">
+                       <a href="https://www.linkedin.com/in/shreyas-j-5a414a2a4" target="_blank"><i class="fa-brands fa-linkedin me-4 text-primary"></i></a>
+                    </div>
+                    <div class="social-items">
+                       <a href=""><i class="fa-brands fa-github me-4 text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class="col-md-5">
+                
+                <form action="{% url 'userdetails' %}" method="POST" class="p-4"style="box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius:10px;">
+
+                    {% csrf_token %}
+
+                    <h3 class="text-center fw-semibold mb-3">Get In Touch</h3>
+
+                    <input type="text" placeholder="Your Name" name="name" class="form-control mb-3 p-3" required>
+
+                    <input type="number" placeholder="Your Contact Number" name="number" class="form-control mb-3 p-3" required>
+                    
+                    <input type="text" placeholder="Your Email" name="email" class="form-control mb-3 p-3" required>
+                    
+                    <textarea rows="5"  class="form-control" name="description" required placeholder="Enter Message" required></textarea>
+
+                    <input type="submit" class="btn btn-dark mt-3" onclick="func()" value="Send Mail">
+                    
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function func(){
+            alert("Mail Sent Successfully")
+        }
+    </script>
+   </section>
+
+    <!--Get in touch ends-->
+
+    <!--Footer Starts-->
+
+    <div class="container-fluid bg-dark p-5">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="fw-semibold text-center text-white">© 2025 Shreyas J. This portfolio and its contents are protected. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Ends-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
